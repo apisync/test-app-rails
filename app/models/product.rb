@@ -13,6 +13,20 @@ class Product < ApplicationRecord
     attribute :year
   end
 
+  def self.create_default
+    Product.create(
+      template_type: "Eletronics",
+      availability: true,
+      language: "pt-br",
+      brand_name: "Google",
+      description: "New Mobile \n Buy it today!",
+      weblink: "http://www.google.com",
+      modelname: "Google ic3",
+      year: 2017,
+      product_title: "GooglePhone"
+    )
+  end
+
   private
 
   def should_sync?
