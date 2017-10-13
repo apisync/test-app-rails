@@ -42,7 +42,7 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     apisync (0.1.4)
       httparty (~> 0.13)
-    apisync-rails (0.0.3)
+    apisync-rails (0.0.4)
       activerecord (>= 4.2)
       activesupport (>= 4.2)
       apisync (>= 0.1.4)
@@ -205,4 +205,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.16.0.pre.2
+   1.16.0.pre.3
